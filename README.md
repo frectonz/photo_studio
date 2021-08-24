@@ -2,7 +2,7 @@
 
 This sample website has nice animation around the cursor as the it is moved around the webpage. It also has a nice grid css class for the galley section.
 
-## [Live Preview]()
+## [Live Preview](https://photostudio-sample.netlify.app/)
 
 ## Screenshots
 
