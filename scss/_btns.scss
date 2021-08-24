@@ -1,0 +1,21 @@
+%btn {
+  display: inline-block;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.btn {
+  @extend %btn;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  transition: 500ms;
+  margin: 5px;
+
+  &:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Photo Studio</title>
+  </head>
+
+  <body>
+    <canvas></canvas>
+
+    <nav class="nav">
+      <h1 class="logo">Photo <span>Studio</span></h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="center">
+      <div class="card">
+        <h1 class="card-title">Taking your picture...</h1>
+        <p class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
+          dignissimos corrupti voluptates debitis doloremque rem, deleniti
+          maiores officiis ducimus expedita impedit rerum fuga iste nam aliquam
+          porro esse magnam adipisci temporibus harum ipsum eaque ipsam vitae
+          possimus. Sequi architecto iusto molestias dolore tempora enim totam
+          voluptatibus magnam, dolorum perferendis consectetur.
+        </p>
+        <div class="card-btns">
+          <a href="#about" class="btn">About Us</a>
+          <a href="#gallery" class="btn">Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="center">
+      <div class="card">
+        <h1 class="card-title">Learn about us</h1>
+        <p class="card-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel impedit
+          explicabo commodi placeat aliquam illum alias tenetur quos unde
+          possimus, architecto officiis voluptatibus quasi blanditiis totam
+          necessitatibus omnis ex voluptatum eius libero temporibus? Quae
+          voluptas ipsum quis aspernatur aut impedit odit perspiciatis eveniet
+          libero. Ipsum quia est nam suscipit facilis.?
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery" class="center">
+      <h1>Gallery</h1>
+      <div class="grid">
+        <div class="cell cell-wide"></div>
+        <div class="cell cell-tall"></div>
+        <div class="cell"></div>
+        <div class="cell cell-tall"></div>
+        <div class="cell"></div>
+        <div class="cell cell-wide"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="center">
+      <div class="card">
+        <h1 class="card-title">Contact Us</h1>
+        <h3>We are located at Arabsa condominium.</h3>
+        <div>
+          <a href="" class="btn">email</a>
+          <a href="" class="btn">facebook</a>
+          <a href="" class="btn">phone</a>
+          <a href="" class="btn">sms</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>Copyright echo web &copy; 2020</footer>
+
+    <script src="/js/particles.js"></script>
+    <script src="/js/materialize.min.js"></script>
+
+    <script>
+      const ss = document.querySelectorAll("section");
+      M.ScrollSpy.init(ss, {});
+    </script>
+  </body>
+</html>

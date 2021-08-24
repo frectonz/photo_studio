@@ -1,0 +1,52 @@
+@import "config";
+@import "utilities";
+@import "nav";
+@import "card";
+@import "btns";
+@import "grid";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+  user-select: none;
+}
+
+body {
+  background-color: $primary-color;
+  background: linear-gradient(45deg, #19273c12 50%, transparent 50%);
+}
+
+section {
+  min-height: 600px;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+#gallery {
+  h1 {
+    margin: 1rem;
+    font-size: 2rem;
+  }
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+@import "mobile";

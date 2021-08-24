@@ -1,0 +1,28 @@
+@media (max-width: 800px) {
+  .nav {
+    // position: static;
+    display: block;
+    .logo {
+      width: 100%;
+      text-align: center;
+    }
+    ul {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+
+  section {
+    min-height: 800px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  canvas {
+    display: none;
+  }
+}

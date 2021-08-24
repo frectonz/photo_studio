@@ -1,0 +1,35 @@
+.nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid $secondary-color;
+
+  .logo {
+    width: 50%;
+    span {
+      color: $third-color;
+      font-weight: lighter;
+    }
+  }
+
+  ul {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 10px;
+      border-radius: 2px;
+      transition: 500ms;
+      background-color: rgba(137, 43, 226, 0.267);
+
+      &:hover {
+        transform: translate(10px, 10px);
+      }
+    }
+  }
+}
