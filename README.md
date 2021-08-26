@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b3e5ac3a-178f-4071-ba05-bc6c11329112/deploy-status)](https://app.netlify.com/sites/photostudio-sample/deploys)
+
 # Photo Studio Template
 
 This sample website has nice animation around the cursor as the it is moved around the webpage. It also has a nice grid css class for the galley section.
